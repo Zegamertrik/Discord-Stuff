@@ -17,7 +17,7 @@
 
  :root[class*="theme"] {
 
-    --unity-custom-font: unset;
+    --unity-custom-font: abel;
     --unity-wordmark: unset;
     
     --unity-gaps: 1;
@@ -46,9 +46,9 @@
 
 :root.theme-dark {
 
-    --unity-accent-hue: 210;
-    --unity-accent-saturation: 99%;
-    --unity-accent-lightness: 50%;
+    --unity-accent-hue: 285;
+    --unity-accent-saturation: 100%;
+    --unity-accent-lightness: 80%;
 
     --unity-background-primary: var(--unity-black);
     --unity-background-primary-rgb: 0, 0, 0;
@@ -103,55 +103,55 @@
 
 :root.theme-light {
 
-    --unity-accent-hue: 210;
-    --unity-accent-saturation: 99%;
-    --unity-accent-lightness: 50%;
+    --unity-accent-hue: 268;
+    --unity-accent-saturation: 100%;
+    --unity-accent-lightness: 45%;
     
-    --unity-background-primary: #f0f0f0;
+    --unity-background-primary: #ece0ff;
     --unity-background-primary-rgb: 240, 240, 240;
     --unity-background-secondary: var(--unity-white);
-    --unity-background-secondary-alt: #e8e8e8;
+    --unity-background-secondary-alt: #dfccff;
     --unity-background-secondary-rgb: 252, 252, 252;
-    --unity-background-tertiary: #E0E0E0;
+    --unity-background-tertiary: #ab7aff;
     --unity-background-tertiary-rgb: 224, 224, 224;
 
     --unity-background-image: unset;
 
     --unity-opacity: 1;
 
-    --guilds-background-color: unset; 
+    --guilds-background-color: #dfccff; 
     --guilds-background-image: unset;
     --guilds-background-blur: unset;
-    --guilds-border-color:unset;
-    --guilds-border-width: unset;
+    --guilds-border-color:#6b00e6;
+    --guilds-border-width: 1px;
     
-    --sidebar-background-color:unset;
+    --sidebar-background-color:#ece0ff;
     --sidebar-background-image: unset;
     --sidebar-background-blur:unset;
-    --sidebar-border-color: unset;
-    --sidebar-border-width: unset;
+    --sidebar-border-color: #6b00e6;
+    --sidebar-border-width: 1px;
 
-    --panels-background-color: unset;
+    --panels-background-color: #ece0ff;
     --panels-background-image: unset;
     --panels-background-blur: unset;
-    --panels-border-color: unset;
-    --panels-border-width: unset;
+    --panels-border-color: #6b00e6;
+    --panels-border-width: 1px;
 
-    --base-background-color: unset; 
+    --base-background-color: #dfccff; 
     --base-background-image: unset;
     --base-background-blur: unset;
-    --base-border-color:unset;
-    --base-border-width: unset;
+    --base-border-color: #6b00e6;
+    --base-border-width: 1px;
 
-    --chat-background-color: unset;
+    --chat-background-color: #ece0ff;
     --chat-background-image: unset;
     --chat-background-blur: unset;
-    --chat-border-color: unset;
-    --chat-border-width: unset;
+    --chat-border-color: #6b00e6;
+    --chat-border-width: 1px;
     
-    --threads-border-color: unset;
-    --threads-border-width: unset;
+    --threads-border-color: #6b00e6;
+    --threads-border-width: 1px;
 
-    --header-background-color: unset;
+    --header-background-color: #c29eff;
     --header-background-blur:unset;
 }
